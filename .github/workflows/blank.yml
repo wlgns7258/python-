@@ -1,0 +1,10 @@
+i = 1
+sum = 0 
+while True: # While 뒤에 True이면 무한 반복
+  # 종료하기 위해서는 break를 사용 sum += i
+  if i > 50:
+    # break 반복문 종료
+    break
+  sum += i # 1. sum = i + sum과 같은뜻 처음엔 0 + 1이됨으로 sum의 처음 값 1 ,두번째는 i가 2임으로 1+2는 3
+  i += 1 # 2. i = i + 1 과 같은뜻 처음엔 1+1임으로 처음 값 2, 두번째는 2+1 = 3
+  print('합계 :',sum) #3.  sum은 처음값 1 두번째 값 3
